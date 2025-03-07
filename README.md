@@ -268,3 +268,19 @@ Use responsibly and comply with all laws/terms. Maintainers are not liable for c
 ## License
 
 [MIT License](LICENSE)
+
+## Author
+
+**Samir Thakuri**
+
+- GitHub: [notsopreety](https://github.com/notsopreety)
+- Email: itssamir444@gmail.com
+
+Feel free to reach out for any queries or collaboration opportunities!
+
+## Support
+
+If you encounter any issues or have questions, please:
+1. Check the [issues page](https://github.com/notsopreety/blackbox-api-v2/issues)
+2. Create a new issue if needed
+3. Provide detailed information about the problem
