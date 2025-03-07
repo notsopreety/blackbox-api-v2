@@ -1,20 +1,27 @@
 {
   "name": "blackbox-api-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Unofficial API for Blackbox by Samir Badaila",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "blackbox",
+    "api",
+    "reverse-engineering",
+    "nodejs",
+    "expressjs",
+    "scraping"
+  ],
+  "author": "Samir Badaila",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.8.2",
-    "cors": "^2.8.5",
+    "body-parser": "^1.20.3",
     "express": "^4.21.2"
   }
 }
