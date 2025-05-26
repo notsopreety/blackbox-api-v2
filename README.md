@@ -50,6 +50,47 @@ npm start
 
 2. API available at `http://localhost:3000` (or your configured PORT).
 
+## Docker Deployment
+
+### Using Docker
+
+1. Build the Docker image:
+```bash
+docker build -t blackbox-api-v2 .
+```
+
+2. Run the container:
+```bash
+docker run -p 3000:3000 -d --name blackbox-api blackbox-api-v2
+```
+
+### Using Docker Compose
+
+1. Run the application with Docker Compose:
+```bash
+docker-compose up -d
+```
+
+2. To stop the application:
+```bash
+docker-compose down
+```
+
+### Cloud Deployment
+
+The Docker configuration is compatible with most cloud platforms that support Docker containers:
+
+- **AWS ECS/Fargate**: Upload the image to ECR and deploy as a service
+- **Google Cloud Run**: Upload the image to GCR and deploy as a serverless container
+- **Azure Container Apps**: Upload the image to ACR and deploy as a container app
+- **DigitalOcean App Platform**: Connect your repository with the Dockerfile
+- **Heroku**: Use the Heroku Container Registry to deploy
+
+### Environment Variables
+
+When deploying to cloud environments, you may need to configure these environment variables:
+- `PORT`: The port on which the API will run (default: 3000)
+
 ### API Endpoint
 
 **POST /api/chat**
